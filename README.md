@@ -91,15 +91,15 @@ Estes itens não são obrigatórios, porém desejados.\*\*\*\*
 
 Você deverá construi um projeto utilizando o layout proposto.
 
-- [ x ] Login e acesso de usuário já registrado
-- [ x ] Para o login usamos padrões **OAuth 2.0**. Na resposta de sucesso do login a api retornará um token _authorization_.
-- [ x ] Para ter acesso as demais APIs, precisamos enviar o _authorization_ no header para autorizar a requisição.
+- [x] Login e acesso de usuário já registrado
+- [x] Para o login usamos padrões **OAuth 2.0**. Na resposta de sucesso do login a api retornará um token _authorization_.
+- [x] Para ter acesso as demais APIs, precisamos enviar o _authorization_ no header para autorizar a requisição.
 
 **Features:**
 
-- [ x ] Listagem de Livros
-- [ x ] Paginação ou Carregar Mais em listagem
-- Modal para filtros em listagem com as seguintes opções de filtragem:
+- [x] Listagem de Livros
+- [x] Paginação ou Carregar Mais em listagem
+- [ ]Modal para filtros em listagem com as seguintes opções de filtragem:
 
 1. Nome do livro
 2. Autor
