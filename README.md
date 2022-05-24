@@ -1,8 +1,59 @@
+<h1 align="center">IOASYS-BOOKs</h1>
+
+<h1 align="center">
+<img
+    alt="IOASYS"
+    src="./assets/images/ioasys.gif"
+    width=300
+    height=700    
+  />
+</h1>
+
+# Download: [APK](https://drive.google.com/file/d/1FY4nNjJx5HdwPp7u4u3a547lsJjwR25S/view?usp=sharing)
+
+### Funcionalidades
+
+
+- Login, salvando no localStorage;
+- Pegando livros de acordo com a paginação
+- Ao selecionar um livro pega na API todos os dados referentes ao livro e mostra seus detalhes.
+- Logoff removendo os dados do localStorage
+
+
+- Funcionalidade que falta a ser encrementada - FILTROS
+
+
+### Tecnologias
+
+- [Expo](https://expo.io/)
+- [Axios](https://github.com/axios/axios) 
+- [React Native](https://reactnative.dev/)
+- [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
+
+
+
+### Como usar
+
+```bash
+# Clone o repositório
+$ git clone git@github.com:alexjou/ioasys.git
+
+# Entre na pasta
+$ cd ioasys
+
+# Instale as dependencias
+$ yarn install
+
+# Inicie o site
+$ yarn start
+```
+
+###
+
+
+## DESCRIÇÃO DO TESTE
+
 ![N|Solid](./assets/images/icon.png)
-
-## Sobre
-
-Este documento `README.md` tem como objetivo fornecer as informações necessárias para a realizaçāo do projeto `ioasys books`.
 
 ## 🏗 O que fazer?
 
@@ -40,14 +91,14 @@ Estes itens não são obrigatórios, porém desejados.\*\*\*\*
 
 Você deverá construi um projeto utilizando o layout proposto.
 
-- Login e acesso de usuário já registrado
-- Para o login usamos padrões **OAuth 2.0**. Na resposta de sucesso do login a api retornará um token _authorization_.
-- Para ter acesso as demais APIs, precisamos enviar o _authorization_ no header para autorizar a requisição.
+- [ x ] Login e acesso de usuário já registrado
+- [ x ] Para o login usamos padrões **OAuth 2.0**. Na resposta de sucesso do login a api retornará um token _authorization_.
+- [ x ] Para ter acesso as demais APIs, precisamos enviar o _authorization_ no header para autorizar a requisição.
 
 **Features:**
 
-- Listagem de Livros
-- Paginação ou Carregar Mais em listagem
+- [ x ] Listagem de Livros
+- [ x ] Paginação ou Carregar Mais em listagem
 - Modal para filtros em listagem com as seguintes opções de filtragem:
 
 1. Nome do livro
@@ -71,52 +122,3 @@ Você deverá construi um projeto utilizando o layout proposto.
 - **API url**: `https://books.ioasys.com.br/api/v1`
 - **Usuário de Teste**: `desafio@ioasys.com.br`
 - **Senha de Usuário de Teste**: `12341234`
-
-
-<h1 align="center">
-<img
-    alt="IOASYS"
-    src="./assets/images/ioasys.gif"
-    width=300
-    height=600    
-  />
-</h1>
-
-<h1 align="center">IOASYS-BOOKs</h1>
-
-
-### Funcionalidades
-
-
-- [ ] Login
-- [ ] Exibir livros e suas informações
-
-- 
-
-
-### Tecnologias
-
-- [Expo](https://expo.io/)
-- [Axios](https://github.com/axios/axios) 
-- [React Native](https://reactnative.dev/)
-- [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
-
-
-
-### Como usar
-
-```bash
-# Clone o repositório
-$ git clone git@github.com:alexjou/ioasys.git
-
-# Entre na pasta
-$ cd ioasys
-
-# Instale as dependencias
-$ yarn install
-
-# Inicie o site
-$ yarn start
-```
-
-###
